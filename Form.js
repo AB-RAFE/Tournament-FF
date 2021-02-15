@@ -4,6 +4,7 @@ class Form {
     this.input2 = createInput("PASSWORD");
     this.title = createElement('h2');
     this.button = createButton("SUBMIT");
+    this.image = loadImage("img/diamond.png");
   }
 
   display(){
@@ -22,5 +23,6 @@ class Form {
         mail: this.input1.value()
       });
     })
+    image(this.image,200,200,100,100);
   }
 }
