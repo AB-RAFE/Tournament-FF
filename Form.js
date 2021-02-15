@@ -9,7 +9,7 @@ class Form {
 
   display(){
     this.title.html("FREE FIRE 1000 DIAMOND GIVEAWAY");
-    this.title.position(260,600);
+    this.title.position(240,600);
     this.title.style('color',0);
 
     this.button.position(440,440);
