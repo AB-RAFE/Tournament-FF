@@ -24,7 +24,7 @@ function draw() {
     fill(0);
     text("UID :",120,190);
     text("E-Mail :",96,240);
-    text("Password :",25,290);
+    text("Password :",65,290);
 
     form.display();
     drawSprites();
