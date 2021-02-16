@@ -13,12 +13,18 @@ function setup() {
 
     form = new Form();
 
-    banner = createSprite(300,100,10,10);
+    banner = createSprite(300,75,10,10);
     banner.addImage(bannerIMG);
 }
 
 function draw() {
     background(255);
+
+    textSize(20);
+    fill(0);
+    text("UID :",120,190);
+    text("E-Mail :",96,240);
+    text("Password :",70,290);
 
     form.display();
     drawSprites();
